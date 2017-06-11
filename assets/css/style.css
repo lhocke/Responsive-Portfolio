@@ -1,0 +1,262 @@
+/* Background pattern from Subtle Patterns */
+
+p, a {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+p {
+	margin-bottom: 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+}
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+	padding: 0 20px;
+
+}
+
+h2 {
+	font-size: 24px;
+	padding: 20px;
+	border-bottom: solid 3px #dddddd;
+}
+
+h3 {
+	font-size: 20.8px;
+}
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 200px;  bottom = footer height 
+	background-color: #333333;
+	background-image: url(../images/concrete-texture.png);
+	/*solved issue of relative path. path is relative to css not html*/
+}
+
+header {
+	/*font-color: #777777;*/
+	/*position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;*/
+	height: 80px;
+	background-color: #ffffff;
+	border-bottom: 2px;
+	border-color: #cccccc;
+	border-bottom-style: solid;
+	min-width: 1080px;
+}
+
+.container {
+	position: relative;
+	top: 25px;
+	width: 960px;
+	margin-left: 5%;
+	margin-bottom: 5%;
+}
+
+#name {
+	position: relative;
+	/*bottom: 0;
+	/*margin: 10px 5% 0px;*/
+	float: left;
+	left: 5%;
+	padding: 24px 20px;
+	background: #4aaaa5;
+	color: white;
+}
+
+nav {
+	color: #777777;
+	position: relative;
+	right: 50px;
+	top: 30px;
+	float: right;
+}
+
+.link {
+	padding: 20px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info-box {
+	position: absolute;
+	left: 0;
+	line-height: 1.15;
+	width: 650px;
+	background-color: #ffffff;
+	text-align: justify;
+	padding: 0 5px;
+}
+
+aside {
+	text-align: center;
+	/*padding: 25px;*/
+	width: 270px;
+	position: absolute;
+	right: 0;
+	border-style: solid;
+	border-color: #cccccc;
+	/*border: 2px;*/
+	background-color: #ffffff;
+}
+
+#sidebar {
+	border-bottom: 1px solid ##dddddd;
+	text-align: center;
+	width: 200px;
+	padding-bottom: 5px;
+	padding-top: 15px;
+	margin-left: 15px;
+}
+
+.logo {
+	margin: 15px;
+	width: 50px;
+}
+
+/*index css*/
+
+.bio {
+	margin-top: 15px;
+}
+
+#profile-pic {
+	height: 200px;
+	width: 200px;
+	margin-right: 5px;
+	float: left;
+}
+
+/*portfolio css*/
+
+
+.hidden {
+	visibility: hidden;
+}
+
+
+.pic {
+	width: 100%;
+	height: auto;
+	border: solid 1px #dddddd;
+	margin-right: 32px;
+	margin-left: 24px;
+	position: relative;
+}
+.image-set1 {
+	margin-top: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+.image-set2 {
+	margin: 32px 0 0 0;
+	display: flex;
+	justify-content: center;
+}
+
+.image-set3 {
+	margin: 32px 0 32px 0;
+	display: flex;
+	justify-content: center;
+}
+
+.portfolio {
+	width: 266px;
+	height: auto;
+}
+
+.comment {
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+	width: 100%;
+	padding-top: 9%;
+	padding-bottom: 9%;
+	position: absolute;
+	bottom: 10px;
+	color: #ffffff;
+	background: #4aaaa5;
+}
+
+.subject {
+	padding: 10px 0 0 5px;
+	border-bottom: solid 2px #cccccc;
+}
+
+
+
+/*contact form css*/
+form {
+	margin: 10px;
+}
+label {
+	font-size: 18px;
+	font-family: Helvetica;
+	font-weight: bold;
+	color: #777777;
+}
+
+input {
+	font-family: Helvetica;
+	color: #cccccc;
+	width: 100%;
+	display: block;
+	border: solid 1.5px #dddddd;
+}
+
+.message {
+	height: 300px;
+}
+
+#submit {
+	font-size: 18px;
+	font-family: Helvetica;
+	color: #ffffff;
+	text-align: center;
+	width: 116px;
+	padding: 17px;
+	border: none;	
+	background: #4aaaa5;
+}
+
+/*footer CSS*/
+
+.copyright {
+	height: 11px;
+	width: 11px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left:0;
+	width: 100%;
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #dddddd;
+	text-align: center;
+	padding-top: 24px;
+	height: 48px;
+	margin: 35px 0 0 0;
+	border-top: solid 9px #4aaaa5;
+	background: #666666;
+	clear: both;
+}
+
+
+
+
