@@ -207,5 +207,30 @@ input[type=submit] {
   #masthead {
     position: static;
   }
+
+  #logo {
+    width: 100%;
+  }
+
+  nav {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+
+  }
+
+  nav a {
+    padding-left: 0;
+    margin-left: 15px;
+    line-height: 18px;
+  }
+
+  #main-container {
+    padding: 0 15px;
+  }
+
+  .sidebar {
+    max-width: 640px; 
+  }
 } 
 
