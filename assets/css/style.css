@@ -239,6 +239,15 @@ input[type=submit] {
     max-width: 640px; 
   }
 
+  .work h3{
+    position: fixed;
+  }
+
+  .auth-image {
+    width: 100%
+    /*position: top;*/
+  }
+
 
 } 
 
