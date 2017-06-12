@@ -218,11 +218,17 @@ input[type=submit] {
     text-align: center;
 
   }
+  
 
   nav a {
-    padding-left: 0;
+    padding-left: 15px;
     margin-left: 15px;
+
     line-height: 18px;
+  }
+
+  nav a:last-child{
+    margin-right: 30px
   }
 
   #main-container {
@@ -232,5 +238,7 @@ input[type=submit] {
   .sidebar {
     max-width: 640px; 
   }
+
+
 } 
 
