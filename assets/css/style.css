@@ -203,9 +203,12 @@ input[type=submit] {
 
 /*Making the page mobile responsive*/
 
+/*640px*/
+
 @media screen and (max-width: 640px){
   #masthead {
     position: static;
+    margin: 0 0 20px;
   }
 
   #logo {
@@ -221,8 +224,8 @@ input[type=submit] {
   
 
   nav a {
-    padding-left: 15px;
-    margin-left: 15px;
+    padding: 0 15px;
+    /*margin-left: 15px;*/
 
     line-height: 18px;
   }
@@ -232,22 +235,29 @@ input[type=submit] {
   }
 
   #main-container {
-    padding: 0 15px;
+    padding: 0 20px;
   }
 
   .sidebar {
     max-width: 640px; 
   }
 
-  .work h3{
-    position: fixed;
-  }
-
   .auth-image {
-    width: 100%
-    /*position: top;*/
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 25px;
   }
 
+  .work {
+    width: 100%;
+    height: auto;
+  }
 
 } 
+
+/*768px*/
+
+{}
 
