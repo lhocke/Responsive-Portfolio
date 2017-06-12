@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/concrete-texture.png");
 }
 * {
   box-sizing: border-box;
@@ -200,3 +200,12 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/*Making the page mobile responsive*/
+
+@media screen and (max-width: 640px){
+  #masthead {
+    position: static;
+  }
+} 
+
